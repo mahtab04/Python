@@ -13,7 +13,7 @@ lengthOfLine = 20
 nbrSides = int(input("How many sides do you want on your object? " ))
 
 #Create a loop to draw the object
-for side in range(0,nbrSides) :
+for side in range(0, nbrSides):
     turtle.forward(lengthOfLine)
     #the angle to turn depends on the number of sides of the object
     turtle.right(360/nbrSides)
@@ -26,6 +26,16 @@ for side in range(0,nbrSides) :
         turtle.color('red')
 
 
+
+
+
+# counter =0
+# while counter < 4:
+#     turtle.forward(100)
+#
+#     turtle.right(70)
+#     turtle.color('red')
+#     turtle.color('green')
 
 
 

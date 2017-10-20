@@ -16,3 +16,8 @@ print(int(n1))
 print(int(n2))
 print(int(n3))
 print("\n")
+s = {10, 20, 30, 20, 50} #set datatypes
+print(s)
+print("\n")
+tuple = (10, 20, 40, -30, 'ABC', 'cde') # tuple data types
+print(tuple)
