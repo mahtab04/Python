@@ -1,4 +1,5 @@
 def gcd(m, n):
+
     fm = []
     for i in range(1, m + 1):
         if (m % i) == 0:
